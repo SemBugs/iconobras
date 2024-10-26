@@ -1,0 +1,29 @@
+@import 'vue3-perfect-scrollbar/dist/vue3-perfect-scrollbar.css';
+@import '@bhplugin/vue3-datatable/dist/style.css';
+@import 'tailwind.css';
+
+.el-input,
+.el-input__wrapper,
+.el-input-number,
+.el-select__wrapper {
+    width: 100% !important;
+    height: 40px !important;
+    border-radius: 6px !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.el-input-number .el-input {
+    margin-top: -17px !important;
+}
+
+:root {
+    --el-color-primary: #fd4c0c !important;
+    --el-color-primary: #fd4c0c !important;
+    ;
+    --success-color: #28a745;
+    --warning-color: #ffc107;
+    --danger-color: #dc3545;
+    --info-color: #17a2b8;
+    --text-color: #333;
+}
